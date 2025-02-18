@@ -51,8 +51,8 @@ function Login(){
 
         if(rollnumber && password){
             allfeild=true;
-            if(rollnumber.length<10){
-                notify('Roll number length must be greater then 9','w');
+            if(rollnumber.length<3){
+                notify('User Id must be greater than 2','w');
             }
             else if(password.length<5){
                 notify('Password length must be greater then 5','w');
